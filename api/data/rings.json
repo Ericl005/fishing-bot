@@ -86,14 +86,14 @@
         },
         "pearl": {
             "id": 12,
-            "classBoost": [4, 4, 0, 0],
+            "classBoost": [5, 5, 0, 0],
             "gradeBoost": [0, 0, 0],
             "rating": 5,
             "jewel": true
         },
         "alexandrite": {
             "id": 13,
-            "classBoost": [0, 0, 4, 4],
+            "classBoost": [0, 0, 5, 5],
             "gradeBoost": [0, 0, 0],
             "rating": 5,
             "jewel": true
@@ -124,13 +124,39 @@
             "classBoost": [3, 3, 3, 3],
             "gradeBoost": [0, 0, 0],
             "jewel": true,
+            "rating": 5
+        },
+        "opal": {
+            "id": 18,
+            "classBoost": [4, 4, 4, 4],
+            "gradeBoost": [0, 0, 0],
+            "jewel": true,
             "rating": 6
+        },
+        "tourmaline": {
+            "id": 19,
+            "classBoost": [2, 2, 2, 2],
+            "gradeBoost": [25, 25, 25],
+            "jewel": true,
+            "rating": 6
+        },
+        "moonstone": {
+            "id": 20,
+            "classBoost": [0, 0, 0, 0],
+            "gradeBoost": [100, 100, 100],
+            "jewel": true,
+            "rating": 6,
+            "dropMultiplier": 0.3
         }
     },
     "sellRates": [10, 15, 25, 50, 150, 300, 1000],
     "packChances": {
-        "regular": [10, 13, 13, 13, 13, 7, 7, 7, 7, 4, 3, 2, 0.2, 0.2, 0.2, 0.2, 0.1, 0.1],
-        "premium": [0, 0, 0, 0, 0, 8, 8, 8, 8, 16, 12, 10, 7, 7, 5, 5, 3, 3]
+        "regular": [7, 11, 11, 11, 11, 8, 8, 7, 7, 5, 4.25, 3.5, 1, 1, 1, 1, 1, 0.5, 0.25, 0.25, 0.25],
+        "premium": [0, 0, 0, 0, 0, 7, 7, 7, 7, 16, 12, 10, 7, 7, 5, 5, 4, 3, 1, 1, 1]
+    },
+    "packChancesLegacy": {
+        "regular": [10, 13, 13, 13, 13, 7, 7, 7, 7, 4, 3, 2, 0.2, 0.2, 0.2, 0.2, 0.1, 0.1, 0, 0, 0],
+        "premium": [0, 0, 0, 0, 0, 8, 8, 8, 8, 16, 12, 10, 7, 7, 5, 5, 3, 3, 0, 0, 0]
     },
     "packs": [
         {
@@ -187,6 +213,39 @@
             "sizeClass": { "mean": 4, "dev": 1, "devLimit": 3 },
             "regular": { "price": 40000 },
             "premium": { "price": 200000 }
+        },
+        {
+            "maxLevel": 140,
+            "grades": {
+                "premium": { "mean": 28, "dev": 4, "devLimit": 4 },
+                "sashimi": { "mean": 8, "dev": 1.25, "devLimit": 3 },
+                "trophy": { "mean": 3, "dev": 1, "devLimit": 3 }
+            },
+            "sizeClass": { "mean": 5, "dev": 1.5, "devLimit": 3 },
+            "regular": { "price": 80000 },
+            "premium": { "price": 400000 }
+        },
+        {
+            "maxLevel": 160,
+            "grades": {
+                "premium": { "mean": 30, "dev": 4, "devLimit": 3 },
+                "sashimi": { "mean": 10, "dev": 2, "devLimit": 3 },
+                "trophy": { "mean": 3.5, "dev": 1, "devLimit": 3 }
+            },
+            "sizeClass": { "mean": 6, "dev": 1.75, "devLimit": 3 },
+            "regular": { "price": 160000 },
+            "premium": { "price": 800000 }
+        },
+        {
+            "maxLevel": 180,
+            "grades": {
+                "premium": { "mean": 32, "dev": 4, "devLimit": 3 },
+                "sashimi": { "mean": 12, "dev": 2, "devLimit": 3 },
+                "trophy": { "mean": 4, "dev": 1, "devLimit": 3 }
+            },
+            "sizeClass": { "mean": 7, "dev": 1.75, "devLimit": 3 },
+            "regular": { "price": 500000 },
+            "premium": { "price": 2500000 }
         }
     ]
 }

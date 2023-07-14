@@ -1221,7 +1221,7 @@
         "sizeMin": 250,
         "sizeMax": 500,
         "screenLen": 10,
-        "value": 4
+        "value": 5.5
     },
     {
         "id": 123,
@@ -1565,6 +1565,296 @@
     },
     {
         "id": 157,
+        "name": "long_finned_pilot_whale",
+        "family": "whale",
+        "sizeClass": 4,
+        "sizeMin": 900,
+        "sizeMax": 2200,
+        "screenLen": 13,
+        "value": 12
+    },
+    {
+        "id": 158,
+        "name": "false_killer_whale",
+        "family": "whale",
+        "sizeClass": 4,
+        "sizeMin": 600,
+        "sizeMax": 1750,
+        "screenLen": 12,
+        "value": 4
+    },
+    {
+        "id": 159,
+        "name": "dalls_porpoise",
+        "family": "porpoises",
+        "sizeClass": 2,
+        "sizeMin": 160,
+        "sizeMax": 240,
+        "screenLen": 6,
+        "value": 4
+    },
+    {
+        "id": 160,
+        "name": "pygmy_killer_whale",
+        "family": "whale",
+        "sizeClass": 2,
+        "sizeMin": 200,
+        "sizeMax": 265,
+        "screenLen": 6,
+        "value": 2
+    },
+    {
+        "id": 161,
+        "name": "atlantic_halibut",
+        "family": "halibut",
+        "sizeClass": 2,
+        "sizeMin": 130,
+        "sizeMax": 200,
+        "screenLen": 6,
+        "value": 3
+    },
+    {
+        "id": 162,
+        "name": "melon_headed_whale",
+        "family": "whale",
+        "sizeClass": 2,
+        "sizeMin": 150,
+        "sizeMax": 255,
+        "screenLen": 5,
+        "value": 25
+    },
+    {
+        "id": 163,
+        "name": "kaluga_sturgeon",
+        "family": "sturgeon",
+        "sizeClass": 3,
+        "sizeMin": 500,
+        "sizeMax": 1050,
+        "screenLen": 8,
+        "value": 4
+    },
+    {
+        "id": 164,
+        "name": "gervais_beaked_whale",
+        "family": "whale",
+        "sizeClass": 3,
+        "sizeMin": 600,
+        "sizeMax": 1250,
+        "screenLen": 9,
+        "value": 6
+    },
+    {
+        "id": 165,
+        "name": "scalloped_hammerhead",
+        "family": "shark",
+        "sizeClass": 1,
+        "sizeMin": 25,
+        "sizeMax": 90,
+        "screenLen": 2,
+        "value": 7
+    },
+    {
+        "id": 166,
+        "name": "greenland_shark",
+        "family": "shark",
+        "sizeClass": 3,
+        "sizeMin": 450,
+        "sizeMax": 1300,
+        "screenLen": 8,
+        "value": 12
+    },
+    {
+        "id": 167,
+        "name": "atlantic_striped_bass",
+        "family": "bass",
+        "sizeClass": 1,
+        "sizeMin": 0.8,
+        "sizeMax": 35,
+        "screenLen": 2,
+        "value": 10
+    },
+    {
+        "id": 168,
+        "name": "chinese_river_dolphin",
+        "family": "dolphin",
+        "sizeClass": 2,
+        "sizeMin": 180,
+        "sizeMax": 270,
+        "screenLen": 5,
+        "value": 10
+    },
+    {
+        "id": 169,
+        "name": "atlantic_spotted_dolphin",
+        "family": "dolphin",
+        "sizeClass": 1,
+        "sizeMin": 95,
+        "sizeMax": 150,
+        "screenLen": 3,
+        "value": 10
+    },
+    {
+        "id": 170,
+        "name": "sowerbys_beaked_whale",
+        "family": "whale",
+        "sizeClass": 4,
+        "sizeMin": 1100,
+        "sizeMax": 2400,
+        "screenLen": 12,
+        "value": 11
+    },
+    {
+        "id": 171,
+        "name": "black_sea_bass",
+        "family": "bass",
+        "sizeClass": 1,
+        "sizeMin": 1,
+        "sizeMax": 3.5,
+        "screenLen": 1,
+        "value": 25
+    },
+    {
+        "id": 172,
+        "name": "killer_whale",
+        "family": "whale",
+        "sizeClass": 3,
+        "sizeMin": 3000,
+        "sizeMax": 10000,
+        "screenLen": 8.5,
+        "value": 7
+    },
+    {
+        "id": 173,
+        "name": "whale_shark",
+        "family": "shark",
+        "sizeClass": 4,
+        "sizeMin": 5000,
+        "sizeMax": 20000,
+        "screenLen": 12,
+        "value": 5
+    },
+    {
+        "id": 174,
+        "name": "giant_barb",
+        "family": "carp",
+        "sizeClass": 1,
+        "sizeMin": 200,
+        "sizeMax": 400,
+        "screenLen": 2.5,
+        "value": 4
+    },
+    {
+        "id": 175,
+        "name": "basking_shark",
+        "family": "shark",
+        "sizeClass": 3,
+        "sizeMin": 2000,
+        "sizeMax": 8000,
+        "screenLen": 9,
+        "value": 5
+    },
+    {
+        "id": 176,
+        "name": "blue_marlin",
+        "family": "marlin",
+        "sizeClass": 2,
+        "sizeMin": 400,
+        "sizeMax": 900,
+        "screenLen": 8,
+        "value": 14
+    },
+    {
+        "id": 177,
+        "name": "humpback_whale",
+        "family": "whale",
+        "sizeClass": 4,
+        "sizeMin": 8000,
+        "sizeMax": 32000,
+        "screenLen": 13,
+        "value": 10
+    },
+    {
+        "id": 178,
+        "name": "sperm_whale",
+        "family": "whale",
+        "sizeClass": 4,
+        "sizeMin": 10000,
+        "sizeMax": 40000,
+        "screenLen": 14,
+        "value": 12
+    },
+    {
+        "id": 179,
+        "name": "green_sawfish",
+        "family": null,
+        "sizeClass": 2,
+        "sizeMin": 300,
+        "sizeMax": 600,
+        "screenLen": 7,
+        "value": 5
+    },
+    {
+        "id": 180,
+        "name": "nile_perch",
+        "family": "perch",
+        "sizeClass": 1,
+        "sizeMin": 100,
+        "sizeMax": 300,
+        "screenLen": 3.5,
+        "value": 5
+    },
+    {
+        "id": 181,
+        "name": "giant_grouper",
+        "family": "grouper",
+        "sizeClass": 2,
+        "sizeMin": 300,
+        "sizeMax": 500,
+        "screenLen": 4.5,
+        "value": 3
+    },
+    {
+        "id": 182,
+        "name": "humphead_wrasse",
+        "family": null,
+        "sizeClass": 1,
+        "sizeMin": 100,
+        "sizeMax": 200,
+        "screenLen": 2.5,
+        "value": 4
+    },
+    {
+        "id": 183,
+        "name": "giant_pangasius",
+        "family": "catfish",
+        "sizeClass": 2,
+        "sizeMin": 200,
+        "sizeMax": 600,
+        "screenLen": 4.5,
+        "value": 6
+    },
+    {
+        "id": 184,
+        "name": "baleen_whale",
+        "family": "whale",
+        "sizeClass": 3,
+        "sizeMin": 1500,
+        "sizeMax": 6000,
+        "screenLen": 12,
+        "value": 6
+    },
+    {
+        "id": 185,
+        "name": "hoodwinker_sunfish",
+        "family": "sunfish",
+        "sizeClass": 3,
+        "sizeMin": 1000,
+        "sizeMax": 5000,
+        "screenLen": 5,
+        "value": 2
+    },
+    {
+        "id": 186,
         "name": "shoal_bass",
         "family": "bass",
         "sizeClass": 4,
@@ -1572,6 +1862,127 @@
         "sizeMax": 5,
         "screenLen": 7.5,
         "value": 80,
+        "legendary": true
+    },
+    {
+        "id": 187,
+        "name": "black_drum",
+        "family": "drum",
+        "sizeClass": 4,
+        "sizeMin": 4,
+        "sizeMax": 14,
+        "screenLen": 8.5,
+        "value": 60,
+        "legendary": true
+    },
+    {
+        "id": 188,
+        "name": "golden_koi",
+        "family": "carp",
+        "sizeClass": 4,
+        "sizeMin": 3,
+        "sizeMax": 8,
+        "screenLen": 7,
+        "value": 120,
+        "legendary": true
+    },
+    {
+        "id": 189,
+        "name": "american_eel",
+        "family": "eel",
+        "sizeClass": 4,
+        "sizeMin": 6,
+        "sizeMax": 12,
+        "screenLen": 12,
+        "value": 80,
+        "legendary": true
+    },
+    {
+        "id": 190,
+        "name": "american_paddlefish",
+        "family": null,
+        "sizeClass": 4,
+        "sizeMin": 40,
+        "sizeMax": 80,
+        "screenLen": 13,
+        "value": 50,
+        "legendary": true
+    },
+    {
+        "id": 191,
+        "name": "amazon_river_dolphin",
+        "family": "dolphin",
+        "sizeClass": 4,
+        "sizeMin": 100,
+        "sizeMax": 180,
+        "screenLen": 11,
+        "value": 40,
+        "legendary": true
+    },
+    {
+        "id": 192,
+        "name": "japanese_pufferfish",
+        "family": null,
+        "sizeClass": 1,
+        "sizeMin": 5,
+        "sizeMax": 10,
+        "screenLen": 3,
+        "value": 400,
+        "legendary": true
+    },
+    {
+        "id": 193,
+        "name": "great_barracuda",
+        "family": null,
+        "sizeClass": 2,
+        "sizeMin": 10,
+        "sizeMax": 25,
+        "screenLen": 5.5,
+        "value": 300,
+        "legendary": true
+    },
+    {
+        "id": 194,
+        "name": "west_indian_manatee",
+        "family": null,
+        "sizeClass": 4,
+        "sizeMin": 350,
+        "sizeMax": 550,
+        "screenLen": 9.5,
+        "value": 40,
+        "legendary": true
+    },
+    {
+        "id": 195,
+        "name": "yokozuna_slickhead",
+        "family": null,
+        "sizeClass": 4,
+        "sizeMin": 200,
+        "sizeMax": 400,
+        "screenLen": 9,
+        "value": 60,
+        "legendary": true
+    },
+    {
+        "id": 196,
+        "name": "black_seadevil",
+        "family": null,
+        "sizeClass": 2,
+        "sizeMin": 30,
+        "sizeMax": 50,
+        "screenLen": 3.75,
+        "value": 600,
+        "legendary": true
+    },
+    {
+        "id": 197,
+        "name": "pelican_eel",
+        "family": "eel",
+        "sizeClass": 1,
+        "sizeMin": 20,
+        "sizeMax": 50,
+        "screenLen": 4.75,
+        "value": 800,
         "legendary": true
     }
 ]

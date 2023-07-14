@@ -6,65 +6,160 @@
         },
         {
             "name": "framed wooden",
-            "price": 500
+            "price": 1000
         },
         {
             "name": "reinforced wooden",
-            "price": 1500
+            "price": 2000
+        },
+        {
+            "name": "aluminum",
+            "price": 3000
+        },
+        {
+            "name": "gold plated",
+            "price": 4000
+        },
+        {
+            "name": "fiberglass",
+            "price": 6000
+        },
+        {
+            "name": "steel",
+            "price": 8000
+        },
+        {
+            "name": "ferrocement",
+            "price": 10000
         }
     ],
     "container": [
         {
             "name": "old",
             "price": 0,
-            "capacity": 7
+            "capacity": 4
         },
         {
             "name": "standard",
-            "price": 100,
+            "price": 400,
+            "capacity": 6
+        },
+        {
+            "name": "double",
+            "price": 600,
             "capacity": 8
         },
         {
-            "name": "double old",
-            "price": 150,
+            "name": "triple",
+            "price": 500,
             "capacity": 9
         },
         {
-            "name": "double standard",
-            "price": 200,
-            "capacity": 10
-        }
+            "name": "industrial",
+            "price": 800,
+            "capacity": 11
+        },
+        {
+            "name": "hybrid industrial",
+            "price": 600,
+            "capacity": 12
+        },
+        {
+            "name": "double industrial",
+            "price": 700,
+            "capacity": 13
+        },
+        {
+            "name": "giant",
+            "price": 1000,
+            "capacity": 15
+        },
+        {
+            "name": "reinforced giant",
+            "price": 1100,
+            "capacity": 16
+        },
+        {
+            "name": "military",
+            "price": 1600,
+            "capacity": 18
+        },
+        {
+            "name": "reinforced military",
+            "price": 2000,
+            "capacity": 20
+        }                     
     ],
     "engine": [
         {
             "name": "weak gasoline",
             "price": 0,
-            "efficiency": 1
+            "efficiency": 0.5
         },
         {
             "name": "standard gasoline",
-            "price": 100,
-            "efficiency": 1.1
+            "price": 150,
+            "efficiency": 0.6
         },
         {
             "name": "improved gasoline",
-            "price": 150,
-            "efficiency": 1.2
+            "price": 200,
+            "efficiency": 0.7
         },
         {
             "name": "superior gasoline",
-            "price": 200,
-            "efficiency": 1.3
+            "price": 250,
+            "efficiency": 0.8
         },
         {
             "name": "silver gasoline",
             "price": 300,
-            "efficiency": 1.4
+            "efficiency": 0.9
         },
         {
             "name": "gold gasoline",
             "price": 400,
-            "efficiency": 1.5
+            "efficiency": 1
+        },
+        {
+            "name": "standard diesel",
+            "price": 450,
+            "efficiency": 1.2
+        },
+        {
+            "name": "improved diesel",
+            "price": 475,
+            "efficiency": 1.4
+        },
+        {
+            "name": "superior diesel",
+            "price": 500,
+            "efficiency": 1.6
+        },
+        {
+            "name": "silver diesel",
+            "price": 550,
+            "efficiency": 1.8
+        },
+        {
+            "name": "gold diesel",
+            "price": 600,
+            "efficiency": 2
+        },
+        {
+            "name": "standard nuclear",
+            "price": 800,
+            "efficiency": 2.5
+        },
+        {
+            "name": "improved nuclear",
+            "price": 1000,
+            "efficiency": 3
+        },
+        {
+            "name": "superior nuclear",
+            "price": 1500,
+            "efficiency": 3.5
         }
     ],
     "propeller": [
@@ -75,28 +170,58 @@
         },
         {
             "name": "standard wooden",
-            "price": 50,
+            "price": 150,
             "cooldown": 417600000
         },
         {
             "name": "improved wooden",
-            "price": 75,
+            "price": 200,
             "cooldown": 403200000
         },
         {
             "name": "iron",
-            "price": 100,
+            "price": 250,
             "cooldown": 396000000
         },
         {
             "name": "double iron",
-            "price": 150,
+            "price": 300,
             "cooldown": 374400000
         },
         {
             "name": "double steel",
-            "price": 175,
+            "price": 350,
             "cooldown": 360000000
+        },
+        {
+            "name": "industrial",
+            "price": 500,
+            "cooldown": 345600000
+        },
+        {
+            "name": "double industrial",
+            "price": 550,
+            "cooldown": 338400000
+        },
+        {
+            "name": "optimized industrial",
+            "price": 600,
+            "cooldown": 331200000
+        },
+        {
+            "name": "military",
+            "price": 750,
+            "cooldown": 324000000
+        },
+        {
+            "name": "double military",
+            "price": 850,
+            "cooldown": 316800000
+        },
+        {
+            "name": "optimized military",
+            "price": 1000,
+            "cooldown": 309600000
         }
     ]
 }

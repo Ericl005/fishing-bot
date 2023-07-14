@@ -47,6 +47,11 @@ module.exports.setColumn = async function(userid, column, setValue) {
     return;
 }
 
+module.exports.addAnnexedServer = async function(userid, serverid) {
+    let query = 'UPDATE users SET annexed_servers=ARRAY_APPEND(annexed_servers, $1) WHERE userid=$2';
+    return await config.pquery(query, [serverid, userid]);
+}
+
 module.exports.appendToShopServers = async function(userid, serverid) {
     let query = 'UPDATE users SET shop_servers=ARRAY_APPEND(shop_servers, $1) WHERE userid=$2';
     return await config.pquery(query, [serverid, userid]);
@@ -91,6 +96,13 @@ module.exports.fetchTotalWeightCaught = async function() {
     return weightCaught; // tons
 }
 
+module.exports.fetchGlobalDollarsSpent = async function() {
+    let query = 'SELECT SUM(all_supporter) AS supporter, SUM(all_big_supporter) AS big_supporter, SUM(all_premium_server) AS premium_server FROM users';
+    let d = (await config.pquery(query))[0];
+    let dollarsSpent = d.supporter * 1.5 + d.big_supporter * 10 + d.premium_server * 20;
+    return dollarsSpent;
+}
+
 // Bulk Queries
 module.exports.fetchLeaderboardsByWeight = async function(useridArray) {
     let query = 'SELECT userid, weight_caught AS value FROM users WHERE userid=ANY($1) ORDER BY weight_caught DESC LIMIT 20';
@@ -111,5 +123,25 @@ module.exports.fetchGlobalUserStats = async function() {
     return res;
 }
 
+// INTERFACING THE server_shop_claims TABLE
+module.exports.resetServerShopClaims = async function(userid) {
+    let query = 'DELETE FROM server_shop_claims WHERE userid=$1';
+    return await config.pquery(query, [userid]);
+}
 
-// NEW -- END
+module.exports.getAllServerShopClaims = async function(userid) {
+    let query = 'SELECT * FROM server_shop_claims WHERE userid=$1';
+    let res = await config.pquery(query, [userid]);
+    return res;
+}
+
+module.exports.getServerShopClaims = async function(userid, serverid) {
+    let query = 'SELECT * FROM server_shop_claims WHERE userid=$1 AND serverid=$2';
+    let res = await config.pquery(query, [userid, serverid]);
+    return res;
+}
+
+module.exports.createServerShopClaim = async function(userid, serverid, deal) {
+    let query = 'INSERT INTO server_shop_claims (userid, serverid, deal) VALUES ($1, $2, $3)';
+    return await config.pquery(query, [userid, serverid, deal]);
+}

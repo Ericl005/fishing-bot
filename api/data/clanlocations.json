@@ -1,7 +1,7 @@
 {
     "1": {
         "name": "Calm Waters",
-        "dist": 50,
+        "dist": 20,
         "spawns": {
             "common": ["l1", "l1", "l1", "l2", "l2"],
             "uncommon": ["l3", "l3", "b1"],
@@ -10,7 +10,7 @@
     },
     "2": {
         "name": "Deep Waters",
-        "dist": 75,
+        "dist": 40,
         "spawns": {
             "common": ["l4", "l4", "l4", "l4", "b1"],
             "uncommon": ["l5"],
@@ -19,11 +19,56 @@
     },
     "3": {
         "name": "The Gulf",
-        "dist": 125,
+        "dist": 60,
         "spawns": {
             "common": ["l5", "l6"],
             "uncommon": ["l7", "b2"],
             "rare": ["b3"]
+        }
+    },
+    "4": {
+        "name": "Opulent Ocean",
+        "dist": 100,
+        "spawns": {
+            "common": ["l6", "l7", "l7", "l7", "b1"],
+            "uncommon": ["l8", "l8", "b2", "b2"],
+            "rare": ["b3", "b3", "b3", "b4"]
+        }
+    },
+    "5": {
+        "name": "Coastal Caribbean",
+        "dist": 120,
+        "spawns": {
+            "common": ["l7", "l7", "l7", "l8", "b2"],
+            "uncommon": ["l8", "l8", "l9", "b1"],
+            "rare": ["b3", "b3", "b4"]
+        }
+    },
+    "6": {
+        "name": "The Great Sea",
+        "dist": 160,
+        "spawns": {
+            "common": ["l9", "l9", "l10", "l10", "l11", "l12", "b3"],
+            "uncommon": ["l11", "l11", "l12", "b3", "b4"],
+            "rare": ["l12", "b3", "b4", "b4"]
+        }
+    },
+    "7": {
+        "name": "The Briny Deep",
+        "dist": 240,
+        "spawns": {
+            "common": ["l10", "l11", "l11", "l12", "l12", "l12", "b3", "b3"],
+            "uncommon": ["l12", "l13", "l13", "b4", "b4"],
+            "rare": ["l13", "l13", "b4", "b4", "b5", "b5"]
+        }
+    },
+    "8": {
+        "name": "Poseidon's Trenches",
+        "dist": 320,
+        "spawns": {
+            "common": ["l11", "l12", "l12", "l13", "l13", "l13", "l12", "l13", "b3"],
+            "uncommon": ["l12", "l13", "l13", "l14", "l14", "b4", "b4", "b4", "b5"],
+            "rare": ["l14", "l14", "l14", "l14", "b5", "b5", "b5", "b6"]
         }
     }
 }

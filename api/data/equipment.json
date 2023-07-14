@@ -52,7 +52,7 @@
             "maxWeight": 15,
             "level": 30,
             "price": 1500,
-            "size": 1
+            "size": 1.5
         },
         {
             "id": 6,
@@ -61,7 +61,7 @@
             "maxWeight": 21,
             "level": 33,
             "price": 1800,
-            "size": 1
+            "size": 1.5
         },
         {
             "id": 7,
@@ -70,7 +70,7 @@
             "maxWeight": 26,
             "level": 36,
             "price": 2500,
-            "size": 1
+            "size": 1.5
         },
         {
             "id": 8,
@@ -79,7 +79,7 @@
             "maxWeight": 30,
             "level": 40,
             "price": 3000,
-            "size": 1.5
+            "size": 2
         },
         {
             "id": 9,
@@ -88,7 +88,7 @@
             "maxWeight": 34,
             "level": 43,
             "price": 4000,
-            "size": 1.5
+            "size": 2
         },
         {
             "id": 10,
@@ -97,7 +97,7 @@
             "maxWeight": 38,
             "level": 46,
             "price": 5500,
-            "size": 1.5
+            "size": 2
         },
         {
             "id": 11,
@@ -187,7 +187,7 @@
             "maxWeight": 200,
             "level": 81,
             "price": 50000,
-            "size": 3
+            "size": 3.5
         },
         {
             "id": 21,
@@ -196,7 +196,7 @@
             "maxWeight": 240,
             "level": 85,
             "price": 75000,
-            "size": 3
+            "size": 3.5
         },
         {
             "id": 22,
@@ -205,7 +205,7 @@
             "maxWeight": 290,
             "level": 89,
             "price": 100000,
-            "size": 3
+            "size": 3.5
         },
         {
             "id": 23,
@@ -214,7 +214,7 @@
             "maxWeight": 350,
             "level": 93,
             "price": 120000,
-            "size": 3
+            "size": 3.5
         },
         {
             "id": 24,
@@ -223,7 +223,7 @@
             "maxWeight": 400,
             "level": 96,
             "price": 140000,
-            "size": 3
+            "size": 3.5
         },
         {
             "id": 25,
@@ -232,7 +232,7 @@
             "maxWeight": 450,
             "level": 99,
             "price": 160000,
-            "size": 3
+            "size": 3.5
         },
         {
             "id": 26,
@@ -241,7 +241,7 @@
             "maxWeight": 500,
             "level": 102,
             "price": 175000,
-            "size": 3
+            "size": 4
         },
         {
             "id": 27,
@@ -250,7 +250,7 @@
             "maxWeight": 600,
             "level": 105,
             "price": 200000,
-            "size": 3
+            "size": 4
         },
         {
             "id": 28,
@@ -259,7 +259,7 @@
             "maxWeight": 700,
             "level": 108,
             "price": 250000,
-            "size": 3
+            "size": 4
         },
         {
             "id": 29,
@@ -268,7 +268,7 @@
             "maxWeight": 800,
             "level": 111,
             "price": 300000,
-            "size": 3
+            "size": 4
         },
         {
             "id": 30,
@@ -277,7 +277,7 @@
             "maxWeight": 900,
             "level": 114,
             "price": 350000,
-            "size": 3
+            "size": 4
         },
         {
             "id": 31,
@@ -286,9 +286,125 @@
             "maxWeight": 1000,
             "level": 117,
             "price": 400000,
-            "size": 3
+            "size": 4
+        },
+        {
+            "id": 32,
+            "name": "Whaler",
+            "cooldown": 3180000,
+            "maxWeight": 1150,
+            "level": 122,
+            "price": 500000,
+            "size": 5
+        },
+        {
+            "id": 33,
+            "name": "Reinforced Whaler",
+            "cooldown": 3180000,
+            "maxWeight": 1300,
+            "level": 125,
+            "price": 600000,
+            "size": 5
+        },
+        {
+            "id": 34,
+            "name": "Great Whaler",
+            "cooldown": 3180000,
+            "maxWeight": 1500,
+            "level": 128,
+            "price": 750000,
+            "size": 5
+        },
+        {
+            "id": 35,
+            "name": "Giant",
+            "cooldown": 3120000,
+            "maxWeight": 1750,
+            "level": 131,
+            "price": 1000000,
+            "size": 7
+        },
+        {
+            "id": 36,
+            "name": "Reinforced Giant",
+            "cooldown": 3120000,
+            "maxWeight": 2100,
+            "level": 135,
+            "price": 1500000,
+            "size": 7
+        },
+        {
+            "id": 37,
+            "name": "Great Giant",
+            "cooldown": 3120000,
+            "maxWeight": 2400,
+            "level": 137,
+            "price": 2000000,
+            "size": 7
+        },
+        {
+            "id": 38,
+            "name": "Bronze Champion",
+            "cooldown": 3060000,
+            "maxWeight": 2700,
+            "level": 139,
+            "price": 3000000,
+            "size": 8
+        },
+        {
+            "id": 39,
+            "name": "Silver Champion",
+            "cooldown": 3060000,
+            "maxWeight": 3000,
+            "level": 145,
+            "price": 4000000,
+            "size": 8
+        },
+        {
+            "id": 40,
+            "name": "Gold Champion",
+            "cooldown": 3000000,
+            "maxWeight": 3400,
+            "level": 148,
+            "price": 5000000,
+            "size": 8
+        },
+        {
+            "id": 41,
+            "name": "Royal",
+            "cooldown": 3000000,
+            "maxWeight": 3800,
+            "level": 150,
+            "price": 7000000,
+            "size": 8
+        },
+        {
+            "id": 42,
+            "name": "Reinforced Royal",
+            "cooldown": 3000000,
+            "maxWeight": 4250,
+            "level": 153,
+            "price": 9000000,
+            "size": 8
+        },
+        {
+            "id": 43,
+            "name": "Great Royal",
+            "cooldown": 3000000,
+            "maxWeight": 4800,
+            "level": 156,
+            "price": 12000000,
+            "size": 8
+        },
+        {
+            "id": 44,
+            "name": "Heavenly",
+            "cooldown": 3000000,
+            "maxWeight": 5400,
+            "level": 160,
+            "price": 18000000,
+            "size": 8
         }
-
     ],
     "lines": [
         {
@@ -820,6 +936,226 @@
             "level": 119,
             "price": 120000,
             "bonus": 16
+        },
+        {
+            "id": 53,
+            "name": "Whaler D",
+            "px": 5,
+            "rgb": "#054D1F",
+            "maxWeight": 1100,
+            "level": 121,
+            "price": 140000,
+            "bonus": 17
+        },
+        {
+            "id": 54,
+            "name": "Whaler C",
+            "px": 5,
+            "rgb": "#217640",
+            "maxWeight": 1200,
+            "level": 122,
+            "price": 170000,
+            "bonus": 17
+        },
+        {
+            "id": 55,
+            "name": "Whaler B",
+            "px": 5,
+            "rgb": "#08692C",
+            "maxWeight": 1300,
+            "level": 124,
+            "price": 200000,
+            "bonus": 18
+        },
+        {
+            "id": 56,
+            "name": "Whaler A",
+            "px": 5,
+            "rgb": "#239E89",
+            "maxWeight": 1400,
+            "level": 126,
+            "price": 230000,
+            "bonus": 18
+        },
+        {
+            "id": 57,
+            "name": "Whaler AA",
+            "px": 6,
+            "rgb": "#0F927D",
+            "maxWeight": 1550,
+            "level": 128,
+            "price": 260000,
+            "bonus": 19
+        },
+        {
+            "id": 58,
+            "name": "Whaler AAA",
+            "px": 6,
+            "rgb": "#097C69",
+            "maxWeight": 1700,
+            "level": 130,
+            "price": 300000,
+            "bonus": 20
+        },
+        {
+            "id": 59,
+            "name": "Giant",
+            "px": 8,
+            "rgb": "#999999",
+            "maxWeight": 1850,
+            "level": 132,
+            "price": 400000,
+            "bonus": 22
+        },
+        {
+            "id": 60,
+            "name": "Giant B",
+            "px": 8,
+            "rgb": "#888888",
+            "maxWeight": 2000,
+            "level": 134,
+            "price": 450000,
+            "bonus": 23
+        },
+        {
+            "id": 61,
+            "name": "Giant A",
+            "px": 8,
+            "rgb": "#777777",
+            "maxWeight": 2150,
+            "level": 136,
+            "price": 500000,
+            "bonus": 24
+        },
+        {
+            "id": 62,
+            "name": "Giant AA",
+            "px": 8,
+            "rgb": "#666666",
+            "maxWeight": 2300,
+            "level": 138,
+            "price": 600000,
+            "bonus": 25
+        },
+        {
+            "id": 63,
+            "name": "Giant AAA",
+            "px": 8,
+            "rgb": "#555555",
+            "maxWeight": 2450,
+            "level": 140,
+            "price": 650000,
+            "bonus": 26
+        },
+        {
+            "id": 64,
+            "name": "Magic",
+            "px": 8,
+            "rgb": "#c61aff",
+            "maxWeight": 2600,
+            "level": 142,
+            "price": 800000,
+            "bonus": 28
+        },
+        {
+            "id": 65,
+            "name": "Magic B",
+            "px": 8,
+            "rgb": "#bf00ff",
+            "maxWeight": 2800,
+            "level": 144,
+            "price": 900000,
+            "bonus": 29
+        },
+        {
+            "id": 66,
+            "name": "Magic A",
+            "px": 8,
+            "rgb": "#ac00e6",
+            "maxWeight": 3000,
+            "level": 146,
+            "price": 1000000,
+            "bonus": 30
+        },
+        {
+            "id": 67,
+            "name": "Magic AA",
+            "px": 8,
+            "rgb": "#9900cc",
+            "maxWeight": 3200,
+            "level": 148,
+            "price": 1100000,
+            "bonus": 31
+        },
+        {
+            "id": 68,
+            "name": "Magic AAA",
+            "px": 8,
+            "rgb": "#8600b3",
+            "maxWeight": 3400,
+            "level": 150,
+            "price": 1200000,
+            "bonus": 32
+        },
+        {
+            "id": 69,
+            "name": "Magic Johnson",
+            "px": 8,
+            "rgb": "#c822f1",
+            "maxWeight": 3650,
+            "level": 152,
+            "price": 1600000,
+            "bonus": 34
+        },
+        {
+            "id": 70,
+            "name": "Kraken",
+            "px": 8,
+            "rgb": "#000000",
+            "maxWeight": 3900,
+            "level": 154,
+            "price": 1900000,
+            "bonus": 36
+        },
+        {
+            "id": 71,
+            "name": "Kraken B",
+            "px": 8,
+            "rgb": "#4d0510",
+            "maxWeight": 4200,
+            "level": 156,
+            "price": 2400000,
+            "bonus": 38
+        },
+        {
+            "id": 72,
+            "name": "Kraken A",
+            "px": 8,
+            "rgb": "#990a1f",
+            "maxWeight": 4500,
+            "level": 158,
+            "price": 2900000,
+            "bonus": 40
+        },
+        {
+            "id": 73,
+            "name": "Kraken AA",
+            "px": 8,
+            "rgb": "#e10e2e",
+            "maxWeight": 4900,
+            "level": 160,
+            "price": 3400000,
+            "bonus": 42
+        },
+        {
+            "id": 74,
+            "name": "Kraken AAA",
+            "px": 8,
+            "rgb": "#7f2936",
+            "maxWeight": 5300,
+            "level": 162,
+            "price": 4000000,
+            "bonus": 44
         }
     ],
     "hooks": [
@@ -1342,6 +1678,182 @@
             "name": "Sturgeon B",
             "level": 120,
             "price": 50000
+        },
+        {
+            "id": 65,
+            "multiplier": 1.72,
+            "maxWeight": 1100,
+            "name": "Sturgeon A",
+            "level": 122,
+            "price": 54000
+        },
+        {
+            "id": 66,
+            "multiplier": 1.73,
+            "maxWeight": 1250,
+            "name": "Sturgeon AA",
+            "level": 125,
+            "price": 60000
+        },
+        {
+            "id": 67,
+            "multiplier": 1.74,
+            "maxWeight": 1400,
+            "name": "Sturgeon AAA",
+            "level": 127,
+            "price": 72000
+        },
+        {
+            "id": 68,
+            "multiplier": 1.75,
+            "maxWeight": 1500,
+            "name": "Sturgeon Elite",
+            "level": 129,
+            "price": 80000
+        },
+        {
+            "id": 69,
+            "multiplier": 1.76,
+            "maxWeight": 1650,
+            "name": "Sturgeon Ultimate",
+            "level": 131,
+            "price": 88000
+        },
+        {
+            "id": 70,
+            "multiplier": 1.77,
+            "maxWeight": 1750,
+            "name": "Alien I - Precursor",
+            "level": 133,
+            "price": 95000
+        },
+        {
+            "id": 71,
+            "multiplier": 1.78,
+            "maxWeight": 1900,
+            "name": "Alien II - Abyssal",
+            "level": 135,
+            "price": 105000
+        },
+        {
+            "id": 72,
+            "multiplier": 1.79,
+            "maxWeight": 2100,
+            "name": "Alien III - Unleashed",
+            "level": 137,
+            "price": 112500
+        },
+        {
+            "id": 73,
+            "multiplier": 1.8,
+            "maxWeight": 2250,
+            "name": "Alien IV - Respledent",
+            "level": 139,
+            "price": 120000
+        },
+        {
+            "id": 74,
+            "multiplier": 1.82,
+            "maxWeight": 2400,
+            "name": "Alien V - Booth",
+            "level": 141,
+            "price": 135000
+        },
+        {
+            "id": 75,
+            "multiplier": 1.85,
+            "maxWeight": 2600,
+            "name": "Alien VI - Magic",
+            "level": 143,
+            "price": 150000
+        },
+        {
+            "id": 76,
+            "multiplier": 1.87,
+            "maxWeight": 2800,
+            "name": "Alien VII - Smash",
+            "level": 145,
+            "price": 162500
+        },
+        {
+            "id": 77,
+            "multiplier": 1.9,
+            "maxWeight": 3000,
+            "name": "Alien VIII - Ramond",
+            "level": 147,
+            "price": 175000
+        },
+        {
+            "id": 78,
+            "multiplier": 1.95,
+            "maxWeight": 3200,
+            "name": "Alien IX - Hunt",
+            "level": 149,
+            "price": 185000
+        },
+        {
+            "id": 79,
+            "multiplier": 2,
+            "maxWeight": 3400,
+            "name": "Alien X - Tuna",
+            "level": 150,
+            "price": 200000
+        },
+        {
+            "id": 80,
+            "multiplier": 2.01,
+            "maxWeight": 3650,
+            "name": "Angel I - Dawn",
+            "level": 152,
+            "price": 250000
+        },
+        {
+            "id": 81,
+            "multiplier": 2.02,
+            "maxWeight": 3900,
+            "name": "Angel II - Aura",
+            "level": 154,
+            "price": 300000
+        },
+        {
+            "id": 82,
+            "multiplier": 2.03,
+            "maxWeight": 4200,
+            "name": "Angel III - Foundation",
+            "level": 156,
+            "price": 350000
+        },
+        {
+            "id": 83,
+            "multiplier": 2.04,
+            "maxWeight": 4500,
+            "name": "Angel IV - Cosmos",
+            "level": 157,
+            "price": 375000
+        },
+        {
+            "id": 84,
+            "multiplier": 2.05,
+            "maxWeight": 4800,
+            "name": "Angel V - Aqua",
+            "level": 159,
+            "price": 425000
+        },
+        {
+            "id": 85,
+            "multiplier": 2.06,
+            "maxWeight": 5100,
+            "name": "Angel VI - Terra",
+            "level": 161,
+            "price": 475000
+        },
+        {
+            "id": 86,
+            "multiplier": 2.07,
+            "maxWeight": 5450,
+            "name": "Angel VII - Repose",
+            "level": 163,
+            "price": 500000
         }
     ],
     "gloves": [
@@ -1357,7 +1869,7 @@
             "id": 2,
             "name": "Vinyl",
             "chance": 4,
-            "bonus": 4,
+            "bonus": 5,
             "level": 26,
             "price": 500
         },
@@ -1365,7 +1877,7 @@
             "id": 3,
             "name": "Latex",
             "chance": 5,
-            "bonus": 5,
+            "bonus": 7,
             "level": 31,
             "price": 800
         },
@@ -1373,7 +1885,7 @@
             "id": 4,
             "name": "Nitrile",
             "chance": 5,
-            "bonus": 6,
+            "bonus": 10,
             "level": 35,
             "price": 1200
         },
@@ -1381,7 +1893,7 @@
             "id": 5,
             "name": "Neoprene",
             "chance": 6,
-            "bonus": 10,
+            "bonus": 15,
             "level": 39,
             "price": 2500
         },
@@ -1389,7 +1901,7 @@
             "id": 6,
             "name": "Leather",
             "chance": 6,
-            "bonus": 12,
+            "bonus": 20,
             "level": 46,
             "price": 4500
         },
@@ -1397,7 +1909,7 @@
             "id": 7,
             "name": "Utility",
             "chance": 7,
-            "bonus": 15,
+            "bonus": 25,
             "level": 49,
             "price": 6000
         },
@@ -1405,7 +1917,7 @@
             "id": 8,
             "name": "Sport",
             "chance": 7,
-            "bonus": 20,
+            "bonus": 35,
             "level": 56,
             "price": 10000
         },
@@ -1413,7 +1925,7 @@
             "id": 9,
             "name": "Sport Plus",
             "chance": 7,
-            "bonus": 25,
+            "bonus": 45,
             "level": 62,
             "price": 13000
         },
@@ -1421,7 +1933,7 @@
             "id": 10,
             "name": "Fishing",
             "chance": 8,
-            "bonus": 30,
+            "bonus": 60,
             "level": 69,
             "price": 18000
         },
@@ -1429,7 +1941,7 @@
             "id": 11,
             "name": "Tough",
             "chance": 9,
-            "bonus": 35,
+            "bonus": 70,
             "level": 74,
             "price": 22000
         },
@@ -1437,7 +1949,7 @@
             "id": 12,
             "name": "Pro",
             "chance": 9,
-            "bonus": 45,
+            "bonus": 85,
             "level": 78,
             "price": 26000
         },
@@ -1445,7 +1957,7 @@
             "id": 13,
             "name": "Mech",
             "chance": 10,
-            "bonus": 55,
+            "bonus": 100,
             "level": 83,
             "price": 35000
         },
@@ -1453,7 +1965,7 @@
             "id": 14,
             "name": "Mech V2",
             "chance": 10,
-            "bonus": 70,
+            "bonus": 120,
             "level": 88,
             "price": 50000
         },
@@ -1461,7 +1973,7 @@
             "id": 15,
             "name": "Mech V3",
             "chance": 11,
-            "bonus": 80,
+            "bonus": 150,
             "level": 94,
             "price": 70000
         },
@@ -1469,7 +1981,7 @@
             "id": 16,
             "name": "Mech V4",
             "chance": 12,
-            "bonus": 90,
+            "bonus": 200,
             "level": 100,
             "price": 90000
         },
@@ -1477,7 +1989,7 @@
             "id": 17,
             "name": "Mech V5",
             "chance": 12,
-            "bonus": 120,
+            "bonus": 250,
             "level": 105,
             "price": 120000
         },
@@ -1485,7 +1997,7 @@
             "id": 18,
             "name": "Underwater",
             "chance": 14,
-            "bonus": 160,
+            "bonus": 350,
             "level": 113,
             "price": 150000
         },
@@ -1493,9 +2005,89 @@
             "id": 19,
             "name": "Underwater V2",
             "chance": 14,
-            "bonus": 200,
+            "bonus": 400,
             "level": 117,
             "price": 160000
+        },
+        {
+            "id": 20,
+            "name": "Magic",
+            "chance": 16,
+            "bonus": 500,
+            "level": 123,
+            "price": 300000
+        },
+        {
+            "id": 21,
+            "name": "Augmented Magic",
+            "chance": 18,
+            "bonus": 700,
+            "level": 127,
+            "price": 500000
+        },
+        {
+            "id": 22,
+            "name": "Royal",
+            "chance": 20,
+            "bonus": 900,
+            "level": 130,
+            "price": 600000
+        },
+        {
+            "id": 23,
+            "name": "Royal V2",
+            "chance": 20,
+            "bonus": 1100,
+            "level": 133,
+            "price": 700000
+        },
+        {
+            "id": 24,
+            "name": "Royal V3",
+            "chance": 20,
+            "bonus": 1300,
+            "level": 137,
+            "price": 800000
+        },
+        {
+            "id": 25,
+            "name": "Royal V4",
+            "chance": 20,
+            "bonus": 1500,
+            "level": 140,
+            "price": 900000
+        },
+        {
+            "id": 26,
+            "name": "Royal V5",
+            "chance": 20,
+            "bonus": 2000,
+            "level": 145,
+            "price": 1500000
+        },
+        {
+            "id": 27,
+            "name": "Crown",
+            "chance": 21,
+            "bonus": 2500,
+            "level": 150,
+            "price": 5000000
+        },
+        {
+            "id": 28,
+            "name": "Crown V2",
+            "chance": 21,
+            "bonus": 3250,
+            "level": 156,
+            "price": 8000000
+        },
+        {
+            "id": 29,
+            "name": "Crown V3",
+            "chance": 22,
+            "bonus": 4000,
+            "level": 162,
+            "price": 15000000
         }
     ],
     "swivels": [
@@ -1544,51 +2136,121 @@
         {
             "id": 7,
             "name": "Tactical V2",
-            "bonus": 90,
+            "bonus": 100,
             "level": 87,
             "price": 35000
         },
         {
             "id": 8,
             "name": "Gold Tactical",
-            "bonus": 100,
+            "bonus": 125,
             "level": 92,
             "price": 40000
         },
         {
             "id": 9,
             "name": "Gold Tactical V2",
-            "bonus": 120,
+            "bonus": 150,
             "level": 97,
             "price": 70000
         },
         {
             "id": 10,
             "name": "Amethyst Tactical",
-            "bonus": 150,
+            "bonus": 200,
             "level": 103,
             "price": 100000
         },
         {
             "id": 11,
             "name": "Amethyst Tactical V2",
-            "bonus": 180,
+            "bonus": 250,
             "level": 107,
             "price": 150000
         },
         {
             "id": 12,
             "name": "Amethyst Tactical V3",
-            "bonus": 210,
+            "bonus": 300,
             "level": 112,
             "price": 180000
         },
         {
             "id": 13,
             "name": "Amethyst Tactical V4",
-            "bonus": 250,
+            "bonus": 400,
             "level": 117,
             "price": 250000
+        },
+        {
+            "id": 14,
+            "name": "Magic Tactical",
+            "bonus": 500,
+            "level": 122,
+            "price": 400000
+        },
+        {
+            "id": 15,
+            "name": "Magic Tactical V2",
+            "bonus": 600,
+            "level": 125,
+            "price": 450000
+        },
+        {
+            "id": 16,
+            "name": "Magic Tactical V3",
+            "bonus": 700,
+            "level": 128,
+            "price": 500000
+        },
+        {
+            "id": 17,
+            "name": "Royal",
+            "bonus": 1000,
+            "level": 131,
+            "price": 800000
+        },
+        {
+            "id": 18,
+            "name": "Royal V2",
+            "bonus": 1500,
+            "level": 135,
+            "price": 1200000
+        },
+        {
+            "id": 19,
+            "name": "Royal V3",
+            "bonus": 2000,
+            "level": 142,
+            "price": 1500000
+        },
+        {
+            "id": 20,
+            "name": "Royal V4",
+            "bonus": 2500,
+            "level": 147,
+            "price": 2000000
+        },
+        {
+            "id": 21,
+            "name": "Royal V5",
+            "bonus": 3000,
+            "level": 152,
+            "price": 5000000
+        },
+        {
+            "id": 22,
+            "name": "Crown",
+            "bonus": 3600,
+            "level": 157,
+            "price": 15000000
+        },
+        {
+            "id": 23,
+            "name": "Crown V2",
+            "bonus": 4200,
+            "level": 162,
+            "price": 30000000
         }
     ]
 }
