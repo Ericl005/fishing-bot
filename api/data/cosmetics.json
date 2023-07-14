@@ -1,0 +1,90 @@
+{
+    "equipment_banner": {
+        "name": "Equipment Banners",
+        "index": 0,
+        "contents": [
+            {
+                "name": "Blue Banner",
+                "src": "blue_banner"
+            },
+            {
+                "name": "Red Banner",
+                "src": "red_banner"
+            },
+            {
+                "name": "Green Banner",
+                "src": "green_banner"
+            },
+            {
+                "name": "Grey Banner",
+                "src": "grey_banner"
+            },
+            {
+                "name": "Christmas Banner",
+                "src": "christmas_banner"
+            },
+            {
+                "name": "Bloody Banner",
+                "src": "legacy_bloody"
+            },
+            {
+                "name": "Sunburnt Banner",
+                "src": "legacy_sunburnt"
+            },
+            {
+                "name": "The Heart of Haku",
+                "src": "haku_banner"
+            }
+        ]
+    },
+    "clan_avatar": {
+        "name": "Clan Avatars",
+        "index": 1,
+        "contents": [
+            {
+                "name": "Avatar 0",
+                "src": "avatar_0"
+            },
+            {
+                "name": "Avatar 1",
+                "src": "avatar_1"
+            },
+            {
+                "name": "Avatar 2",
+                "src": "avatar_2"
+            },
+            {
+                "name": "Avatar 3",
+                "src": "avatar_3"
+            },
+            {
+                "name": "Avatar 4",
+                "src": "avatar_4"
+            },
+            {
+                "name": "Avatar 5",
+                "src": "avatar_5"
+            },
+            {
+                "name": "Avatar 6",
+                "src": "avatar_6"
+            },
+            {
+                "name": "Avatar 7",
+                "src": "avatar_7"
+            },
+            {
+                "name": "Big Tuna",
+                "src": "avatar_8"
+            },
+            {
+                "name": "CATchers",
+                "src": "avatar_9"
+            },
+            {
+                "name": "UM BOSSES",
+                "src": "avatar_10"
+            }
+        ]
+    }
+}

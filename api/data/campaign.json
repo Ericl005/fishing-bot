@@ -1,0 +1,947 @@
+[
+    {
+        "name": "Fishing in The Small Pond",
+        "description": "Catch these fish to prove your clan is worthy to move on to the next stage!",
+        "requirements": [
+            ["bluegill", 10],
+            ["grass_pickerel", 5],
+            ["spotted_bass", 2]
+        ],
+        "rewards": {
+            "clanPoints": 15,
+            "lollipops": 0,
+            "coins": 50
+        }
+    },
+    {
+        "name": "Panfish Species Control",
+        "description": "The panfish population has grown out of control!\nHelp remove them from our local lakes.",
+        "requirements": [
+            ["bluegill", 10],
+            ["green_sunfish", 10],
+            ["redear_sunfish", 5],
+            ["pumpkinseed", 5]
+        ],
+        "rewards": {
+            "clanPoints": 20,
+            "lollipops": 5,
+            "coins": 0
+        }
+    },
+    {
+        "name": "Bass Hunt",
+        "description": "Catch bass for the local fishing contest!",
+        "requirements": [
+            ["spotted_bass", 10],
+            ["largemouth_bass", 5]
+        ],
+        "rewards": {
+            "clanPoints": 10,
+            "lollipops": 0,
+            "coins": 75
+        }
+    },
+    {
+        "name": "Pest Control",
+        "description": "Local fishers are upset that all they catch are tiny pest fish.\n\nHelp remove them from our lakes!",
+        "requirements": [
+            ["white_crappie", 7],
+            ["green_sunfish", 10],
+            ["bluntnose_minnow", 12],
+            ["black_crappie", 7]
+        ],
+        "rewards": {
+            "clanPoints": 20,
+            "lollipops": 7,
+            "coins": 100
+        }
+    },
+    {
+        "name": "Catching Giants",
+        "description": "Hope your equipment is strong enough!",
+        "requirements": [
+            ["smallmouth_buffalo", 10],
+            ["channel_catfish", 2],
+            ["bowfin", 2],
+            ["freshwater_drum", 5],
+            ["northern_pike", 1],
+            ["walleye", 2]
+        ],
+        "rewards": {
+            "clanPoints": 20,
+            "lollipops": 10,
+            "coins": 100
+        }
+    },
+    {
+        "name": "Cleaning Muddy River",
+        "description": "The river is too muddy.\nLower the fish population and clear up the river!",
+        "requirements": [
+            ["bluntnose_minnow", 15],
+            ["bowfin", 3],
+            ["pumpkinseed", 10],
+            ["spotted_gar", 5],
+            ["black_bullhead_catfish", 8]
+        ],
+        "rewards": {
+            "clanPoints": 17,
+            "lollipops": 10,
+            "coins": 200
+        }
+    },
+    {
+        "name": "Fishing Contest",
+        "description": "You are invited to a local fishing contest.\nShow your skill and catch the species below!",
+        "requirements": [
+            ["chain_pickerel", 3],
+            ["freshwater_drum", 10],
+            ["cutthroat_trout", 5],
+            ["redfin_pickerel", 5],
+            ["colorado_golden_trout", 5]
+        ],
+        "rewards": {
+            "clanPoints": 14,
+            "lollipops": 0,
+            "coins": 150
+        }
+    },
+    {
+        "name": "Bass Hunt 2",
+        "description": "Bass season is still not over yet!\nCatch Bass in the remaining few days of the season!",
+        "requirements": [
+            ["butterfly_peacock_bass", 1],
+            ["rock_bass", 20],
+            ["smallmouth_bass", 5],
+            ["largemouth_bass", 5],
+            ["white_bass", 5]
+        ],
+        "rewards": {
+            "clanPoints": 19,
+            "lollipops": 5,
+            "coins": 100
+        }
+    },
+    {
+        "name": "Endangered Species",
+        "description": "Help save the endangered fish from the poachers!",
+        "requirements": [
+            ["butterfly_peacock_bass", 1],
+            ["gafftopsail_catfish", 1],
+            ["florida_gar", 3],
+            ["longnose_gar", 7],
+            ["common_carp", 7],
+            ["northern_pike", 2],
+            ["colorado_golden_trout", 7],
+            ["cutthroat_trout", 20],
+            ["sauger", 3]
+        ],
+        "rewards": {
+            "clanPoints": 32,
+            "lollipops": 30,
+            "coins": 0
+        }
+    },
+    {
+        "name": "Trout Fest",
+        "description": "Local demand for trout doubled!\nLocal fishers needs your help to catch more!",
+        "requirements": [
+            ["colorado_golden_trout", 5],
+            ["cutthroat_trout", 20],
+            ["rainbow_trout", 8],
+            ["brown_trout", 5],
+            ["redband_trout", 5],
+            ["brook_trout", 10]
+        ],
+        "rewards": {
+            "clanPoints": 35,
+            "lollipops": 5,
+            "coins": 200
+        }
+    },
+    {
+        "name": "Fishing Trip (Part 1/5: Shallow Stream)",
+        "description": "Your clan decided to go on a fishing trip.\nCatch these species from the nearby river to move on!",
+        "requirements": [
+            ["black_crappie", 15],
+            ["yellow_perch", 8],
+            ["longnose_sucker", 6],
+            ["california_roach", 15],
+            ["white_catfish", 10]
+        ],
+        "rewards": {
+            "clanPoints": 20,
+            "lollipops": 0,
+            "coins": 200
+        }
+    },
+    {
+        "name": "Fishing Trip (Part 2/5: Small Lake)",
+        "description": "Your clan travels down the stream and reached a small lake.\nThere are bigger, medium-sized fish to catch here!",
+        "requirements": [
+            ["largemouth_bass", 5],
+            ["black_bullhead_catfish", 5],
+            ["spotted_gar", 10],
+            ["tiger_muskie", 5],
+            ["atlantic_salmon", 10],
+            ["brook_trout", 15]
+        ],
+        "rewards": {
+            "clanPoints": 30,
+            "lollipops": 5,
+            "coins": 50
+        }
+    },
+    {
+        "name": "Fishing Trip (part 3/5: Drainage Area)",
+        "description": "Near the small lake, your clan found a drainage area!\nIt is filled with large fish!",
+        "requirements": [
+            ["common_snook", 15],
+            ["florida_gar", 5],
+            ["longnose_gar", 5],
+            ["brown_trout", 10],
+            ["blue_catfish", 3],
+            ["muskellunge", 5]
+        ],
+        "rewards": {
+            "clanPoints": 25,
+            "lollipops": 15,
+            "coins": 300
+        }
+    },
+    {
+        "name": "Fishing Trip (Part 4/5: Down the Rushing River)",
+        "description": "You found some super-large fish at a nearby river!\nHope your fishing lines won't snap!",
+        "requirements": [
+            ["lake_sturgeon", 3],
+            ["tarpon", 2],
+            ["alligator_gar", 10],
+            ["common_carp", 10],
+            ["flathead_catfish", 5],
+            ["freshwater_drum", 10],
+            ["bowfin", 5]
+        ],
+        "rewards": {
+            "clanPoints": 30,
+            "lollipops": 10,
+            "coins": 100
+        }
+    },
+    {
+        "name": "Fishing Trip (Part 5/5: The Finale)",
+        "description": "Your fishing trip is almost over.\nFinish this stage and bring home a plentiful harvest!",
+        "requirements": [
+            ["smallmouth_buffalo", 5],
+            ["channel_catfish", 3],
+            ["chain_pickerel", 5],
+            ["bowfin", 3],
+            ["rainbow_trout", 5],
+            ["walleye", 3],
+            ["common_snook", 5],
+            ["gafftopsail_catfish", 1],
+            ["atlantic_salmon", 10],
+            ["brook_trout", 10]
+        ],
+        "rewards": {
+            "clanPoints": 50,
+            "lollipops": 15,
+            "coins": 200
+        }
+    },
+    {
+        "name": "Fisheries Research Institute (Part 1/5: Catfish)",
+        "description": "Your clan have been hired by a local fish research centre to research specific families of fish.\nFirst, you will be researching the Catfish family!",
+        "requirements": [
+            ["black_bullhead_catfish", 5],
+            ["flathead_catfish", 3],
+            ["brown_bullhead_catfish", 20],
+            ["gafftopsail_catfish", 1],
+            ["blue_catfish", 2],
+            ["white_catfish", 35]
+        ],
+        "rewards": {
+            "clanPoints": 30,
+            "lollipops": 10,
+            "coins": 400
+        }
+    },
+    {
+        "name": "Fisheries Research Institute (Part 2/5: Pike)",
+        "description": "Now for your second task: you will be researching the Pike family",
+        "requirements": [
+            ["chain_pickerel", 4],
+            ["northern_pike", 2],
+            ["redfin_pickerel", 25],
+            ["clear_muskie", 2],
+            ["tiger_muskie", 10],
+            ["muskellunge", 5]
+        ],
+        "rewards": {
+            "clanPoints": 25,
+            "lollipops": 15,
+            "coins": 0
+        }
+    },
+    {
+        "name": "Fisheries Research Institute (Part 3/5: Gar)",
+        "description": "Time to research the Gar family!",
+        "requirements": [
+            ["spotted_gar", 10],
+            ["longnose_gar", 8],
+            ["florida_gar", 6],
+            ["alligator_gar", 10]
+        ],
+        "rewards": {
+            "clanPoints": 30,
+            "lollipops": 5,
+            "coins": 600
+        }
+    },
+    {
+        "name": "Fisheries Research Institute (Part 4/5: Carp)",
+        "description": "Your clan's research is almost over.\nYour second last fish family will be Carp!",
+        "requirements": [
+            ["smallmouth_buffalo", 5],
+            ["white_sucker", 15],
+            ["common_carp", 5],
+            ["longnose_sucker", 15]
+        ],
+        "rewards": {
+            "clanPoints": 20,
+            "lollipops": 5,
+            "coins": 250
+        }
+    },
+    {
+        "name": "Fisheries Research Institute (Part 5/5: Herring)",
+        "description": "Congratulations, your clan is almost done the research!\nThis one will be Herring and Perch!",
+        "requirements": [
+            ["american_shad", 15],
+            ["apapa", 10],
+            ["yellow_perch", 20],
+            ["sauger", 10],
+            ["walleye", 5],
+            ["common_snook", 8]
+        ],
+        "rewards": {
+            "clanPoints": 40,
+            "lollipops": 10,
+            "coins": 400
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 1/5: Shallow Waters)",
+        "description": "Your clan is going scuba diving!\nRight now, you have descended 10 meters!",
+        "requirements": [
+            ["longnose_sucker", 20],
+            ["atlantic_salmon", 7],
+            ["brook_trout", 20],
+            ["redband_trout", 7],
+            ["electric_eel", 8],
+            ["silver_arowana", 14]
+        ],
+        "rewards": {
+            "clanPoints": 40,
+            "lollipops": 5,
+            "coins": 500
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 2/5: Heading Down)",
+        "description": "Your clan has reached 20 meters!",
+        "requirements": [
+            ["white_sucker", 10],
+            ["redfin_pickerel", 15],
+            ["tiger_muskie", 8],
+            ["muskellunge", 5],
+            ["trahira", 15],
+            ["payara", 15]
+        ],
+        "rewards": {
+            "clanPoints": 35,
+            "lollipops": 5,
+            "coins": 400
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 3/5: Shallow Seabed)",
+        "description": "40 meters!\nThere are bigger species here!",
+        "requirements": [
+            ["american_shad", 10],
+            ["common_snook", 12],
+            ["alligator_gar", 8],
+            ["atlantic_salmon", 5],
+            ["trahira", 15],
+            ["redtail_catfish", 8],
+            ["piraiba_catfish", 8],
+            ["gilded_catfish", 8]
+        ],
+        "rewards": {
+            "clanPoints": 50,
+            "lollipops": 15,
+            "coins": 500
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 4/5: Epipelagic Zone)",
+        "description": "Congratulations, your clan reached the Epipelagic Zone!\nThere are a lot of gigantic fish here!",
+        "requirements": [
+            ["alligator_gar", 10],
+            ["tarpon", 2],
+            ["lake_sturgeon", 2],
+            ["bull_shark", 4],
+            ["arapaima", 12]
+        ],
+        "rewards": {
+            "clanPoints": 25,
+            "lollipops": 35,
+            "coins": 400
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 5/5: The End)",
+        "description": "Your clan is back on the surface!\nCatch the swarm of fish nearby!",
+        "requirements": [
+            ["california_roach", 40],
+            ["white_catfish", 40]
+        ],
+        "rewards": {
+            "clanPoints": 50,
+            "lollipops": 10,
+            "coins": 400
+        }
+    },
+    {
+        "name": "World fishing tour! (Part 1/10: The Start)",
+        "description": "Your clan is invited to a fishing trip spanning the world!\nFirst stop: Freshwater fish in America!",
+        "requirements": [
+            ["muskellunge", 9],
+            ["yellow_perch", 25],
+            ["white_bass", 14],
+            ["northern_pike", 4],
+            ["alligator_gar", 12],
+            ["atlantic_salmon", 10]
+        ],
+        "rewards": {
+            "clanPoints": 45,
+            "lollipops": 15,
+            "coins": 250
+        }
+    },
+    {
+        "name": "World fishing tour! (Part 2/10: Brazil)",
+        "description": "second stop, Brazil!\nA lot of species in the Amazon river!",
+        "requirements": [
+            ["piraiba_catfish", 6],
+            ["redtail_catfish", 6],
+            ["payara", 30],
+            ["silver_arowana", 35],
+            ["butterfly_peacock_bass", 1],
+            ["common_carp", 3]
+        ],
+        "rewards": {
+            "clanPoints": 50,
+            "lollipops": 12,
+            "coins": 400
+        }
+    },
+    {
+        "name": "World fishing tour! (Part 3/10: Canada)",
+        "description": "Next stop is Canada!\nHome to 1389 different fish species!",
+        "requirements": [
+            ["longnose_sucker", 30],
+            ["muskellunge", 10],
+            ["lake_sturgeon", 2],
+            ["flathead_catfish", 5],
+            ["longnose_gar", 3],
+            ["rock_bass", 20]
+        ],
+        "rewards": {
+            "clanPoints": 48,
+            "lollipops": 12,
+            "coins": 400
+        }
+    },
+    {
+        "name": "World fishing tour! (Part 4/10: Australia)",
+        "description": "Australia is your next destination!",
+        "requirements": [
+            ["bonito", 10],
+            ["spotted_mackerel", 20],
+            ["spanish_mackerel", 5],
+            ["brown_trout", 5],
+            ["rainbow_trout", 4],
+            ["brook_trout", 20]
+        ],
+        "rewards": {
+            "clanPoints": 55,
+            "lollipops": 5,
+            "coins": 500
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 5/10: Mexico)",
+        "description": "Fifth's stop: Mexico!\nYour clan is halfway there!",
+        "requirements": [
+            ["warmouth", 24],
+            ["red_snapper", 40]
+        ],
+        "rewards": {
+            "clanPoints": 40,
+            "lollipops": 10,
+            "coins": 600
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 6/10: Atlantic Coast)",
+        "description": "next stop: Atlantic Ocean!",
+        "requirements": [
+            ["black_crappie", 35],
+            ["red_snapper", 25],
+            ["atlantic_cod", 10]
+        ],
+        "rewards": {
+            "clanPoints": 45,
+            "lollipops": 10,
+            "coins": 200
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 7/10: Pacific Ocean)",
+        "description": "Seventh's stop: The Pacific!\nYour clan is almost there!",
+        "requirements": [
+            ["rainbow_trout", 18],
+            ["yellowfin_tuna", 10],
+            ["amberjack", 15]
+        ],
+        "rewards": {
+            "clanPoints": 40,
+            "lollipops": 20,
+            "coins": 800
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 8/10: England)",
+        "description": "Next stop: England!",
+        "requirements": [
+            ["white_sucker", 25],
+            ["northern_pike", 6],
+            ["atlantic_cod", 20]
+        ],
+        "rewards": {
+            "clanPoints": 30,
+            "lollipops": 5,
+            "coins": 600
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 9/10: New Zealand)",
+        "description": "Second last stop: New Zealand!\nSo close to finishing!!!",
+        "requirements": [
+            ["wahoo", 12],
+            ["amberjack", 15],
+            ["hapuku", 2],
+            ["brook_trout", 35]
+        ],
+        "rewards": {
+            "clanPoints": 35,
+            "lollipops": 10,
+            "coins": 600
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 10/10: Netherlands)",
+        "description": "last stop of the world tour: The Netherlands!",
+        "requirements": [
+            ["spotted_mackerel", 25],
+            ["spanish_mackerel", 7],
+            ["atlantic_salmon", 10],
+            ["clear_muskie", 3],
+            ["common_carp", 10]
+        ],
+        "rewards": {
+            "clanPoints": 50,
+            "lollipops": 25,
+            "coins": 600
+        }
+    },
+    {
+        "name": "Removing Small Fish (Part 1/5)",
+        "description": "Your clan is tasked with removing all small fish! \nFirst up, redbreast sunfish and garfish",
+        "requirements": [
+            ["redbreast_sunfish", 30],
+            ["garfish", 50]
+        ],
+        "rewards": {
+            "clanPoints": 55,
+            "lollipops": 20,
+            "coins": 1000
+        }
+    },
+    {
+        "name": "Removing Small Fish (Part 2/5)",
+        "description": "Now it is time for everyone's favorites: California Roach and Blackfish",
+        "requirements": [
+            ["california_roach", 50],
+            ["blackfish", 40]
+        ],
+        "rewards": {
+            "clanPoints": 50,
+            "lollipops": 25,
+            "coins": 600
+        }
+    },
+    {
+        "name": "Removing Small Fish (Part 3/5)",
+        "description": "Getting close!",
+        "requirements": [
+            ["spotted_mackerel", 25],
+            ["longnose_sucker", 35],
+            ["pearl_perch", 40]
+        ],
+        "rewards": {
+            "clanPoints": 60,
+            "lollipops": 30,
+            "coins": 500
+        }
+    },
+    {
+        "name": "Removing Small Fish (Part 4/5)",
+        "description": "Remember the Bluntnose Minnow??",
+        "requirements": [
+            ["bluntnose_minnow", 60],
+            ["atlantic_salmon", 20]
+        ],
+        "rewards": {
+            "clanPoints": 50,
+            "lollipops": 20,
+            "coins": 350
+        }
+    },
+    {
+        "name": "Removing Small Fish (Part 5/5)",
+        "description": "Thank goodness it's over!",
+        "requirements": [
+            ["spotted_seatrout", 40],
+            ["white_catfish", 70]
+        ],
+        "rewards": {
+            "clanPoints": 50,
+            "lollipops": 30,
+            "coins": 600
+        }
+    },
+    {
+        "name": "Shark Expedition (Part 1/5)",
+        "description": "Your clan starts a journey exploring shark species!\nTo catch these sharks, your clan must acquire shark bait.\nFirst up: Muskie, Drum, and Bull Shark!",
+        "requirements": [
+            ["bull_shark", 10],
+            ["tiger_muskie", 30],
+            ["clear_muskie", 10],
+            ["red_drum", 25]
+        ],
+        "rewards": {
+            "clanPoints": 90,
+            "lollipops": 25,
+            "coins": 2000
+        }
+    },
+    {
+        "name": "Shark Expedition (Part 2/5)",
+        "description": "Catch Mako Sharks with Salmons, Mackerels and Tunas!",
+        "requirements": [
+            ["mako_shark", 10],
+            ["atlantic_salmon", 30],
+            ["spotted_mackerel", 30],
+            ["spanish_mackerel", 20],
+            ["sockeye_salmon", 10]
+        ],
+        "rewards": {
+            "clanPoints": 95,
+            "lollipops": 30,
+            "coins": 400
+        }
+    },
+    {
+        "name": "Shark Expedition (Part 3/5)",
+        "description": "Catch Whaler Sharks with Catfish and smaller sharks!",
+        "requirements": [
+            ["brown_bullhead_catfish", 30],
+            ["whaler_shark", 10],
+            ["mulloway", 20],
+            ["hammerhead_shark", 10]
+        ],
+        "rewards": {
+            "clanPoints": 80,
+            "lollipops": 20,
+            "coins": 1400
+        }
+    },
+    {
+        "name": "Shark expedition (Part 4/5)",
+        "description": "Almost done!\n This time your clan will be catching Hammerhead and Blacktip Sharks using Catfish.",
+        "requirements": [
+            ["hammerhead_shark", 20],
+            ["blacktip_shark", 30],
+            ["white_catfish", 20],
+            ["piraiba_catfish", 15],
+            ["gilded_catfish", 15]
+        ],
+        "rewards": {
+            "clanPoints": 100,
+            "lollipops": 30,
+            "coins": 1000
+        }
+    },
+    {
+        "name": "Shark expedition (Part 5/5)",
+        "description": "To end the expedition, your clan needs to catch a variety of Sharks!",
+        "requirements": [
+            ["bull_shark", 20],
+            ["mako_shark", 10],
+            ["hammerhead_shark", 25],
+            ["blacktip_shark", 30],
+            ["tiger_shark", 5],
+            ["smooth_hound", 10]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 50,
+            "coins": 3000
+        }
+    },
+    {
+        "name": "Hunt for Tuna (Part 1/5)",
+        "description": "Your clan is hunting tuna for the next couple of weeks!\nFirst tuna: Yellowfin Tuna\nOn the side, there a few more fish to catch.",
+        "requirements": [
+            ["yellowfin_tuna", 25],
+            ["tarpon", 5],
+            ["flounder", 20],
+            ["butterfish", 10],
+            ["swordfish", 15]
+        ],
+        "rewards": {
+            "clanPoints": 90,
+            "lollipops": 30,
+            "coins": 3000
+        }
+    },
+    {
+        "name": "Hunt for Tuna (Part 2/5)",
+        "description": "Longtail Tuna is up next!",
+        "requirements": [
+            ["longtail_tuna", 40],
+            ["hapuku", 10],
+            ["coelacanth", 5],
+            ["arapaima", 15],
+            ["payara", 25]
+        ],
+        "rewards": {
+            "clanPoints": 80,
+            "lollipops": 35,
+            "coins": 3200
+        }
+    },
+    {
+        "name": "Hunt for Tuna (Part 3/5)",
+        "description": "The third tuna: Bluefin Tuna!",
+        "requirements": [
+            ["bluefin_tuna", 30],
+            ["amberjack", 10],
+            ["pacific_whiting", 10],
+            ["trahira", 20]
+        ],
+        "rewards": {
+            "clanPoints": 100,
+            "lollipops": 25,
+            "coins": 2500
+        }
+    },
+    {
+        "name": "Hunt for Tuna (Part 4/5)",
+        "description": "Our last tuna: Bigeye Tuna!",
+        "requirements": [
+            ["bigeye_tuna", 30],
+            ["coelacanth", 10],
+            ["mahi_mahi", 10],
+            ["blackfish", 15]
+        ],
+        "rewards": {
+            "clanPoints": 60,
+            "lollipops": 10,
+            "coins": 500
+        }
+    },
+    {
+        "name": "Hunt for Tuna (Part 5/5)",
+        "description": "Tunas Only!!!",
+        "requirements": [
+            ["yellowfin_tuna", 25],
+            ["longtail_tuna", 25],
+            ["bluefin_tuna", 25],
+            ["bigeye_tuna", 25]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 50,
+            "coins": 4000
+        }
+    },
+    {
+        "name": "Fishing Season (Part 1/5)",
+        "description": "Fishing Season has started!\nYour clan will be going on 5 seperate trips!\nHere's the first trip:",
+        "requirements": [
+            ["bowfin", 10],
+            ["gulf_grouper", 25],
+            ["sailfish", 30],
+            ["goliath_grouper", 25],
+            ["blue_shark", 10]
+        ],
+        "rewards": {
+            "clanPoints": 60,
+            "lollipops": 40,
+            "coins": 3500
+        }
+    },
+    {
+        "name": "Fishing Season (Part 2/5)",
+        "description": "Day 2! This is a easy one.",
+        "requirements": [
+            ["trahira", 20],
+            ["red_grouper", 20],
+            ["mahi_mahi", 15],
+            ["spearfish", 20],
+            ["black_grouper", 25]
+        ],
+        "rewards": {
+            "clanPoints": 70,
+            "lollipops": 40,
+            "coins": 2500
+        }
+    },
+    {
+        "name": "Fishing Season (Part 3/5)",
+        "description": "Day 3! This might take a while...",
+        "requirements": [
+            ["bull_shark", 20],
+            ["bluefin_tuna", 20],
+            ["mulloway", 25],
+            ["hapuku", 25],
+            ["coelacanth", 10]
+        ],
+        "rewards": {
+            "clanPoints": 120,
+            "lollipops": 20,
+            "coins": 5000
+        }
+    },
+    {
+        "name": "Fishing Season (Part 4/5)",
+        "description": "Day 4: Not a good day, small fish only.",
+        "requirements": [
+            ["oscar", 15],
+            ["apapa", 15],
+            ["bluefish", 20],
+            ["sockeye_salmon", 15],
+            ["chinook_salmon", 15],
+            ["coho_salmon", 20]
+        ],
+        "rewards": {
+            "clanPoints": 60,
+            "lollipops": 20,
+            "coins": 0
+        }
+    },
+    {
+        "name": "Fishing Season (Part 5/5)",
+        "description": "Day 5: Probably the hardest day!",
+        "requirements": [
+            ["tarpon", 20],
+            ["yellowfin_tuna", 25],
+            ["tiger_shark", 25],
+            ["giant_squid", 20],
+            ["coelacanth", 10]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 60,
+            "coins": 3000
+        }
+    },
+    {
+        "name": "Searching for Sturgeons (Part 1/5)",
+        "description": "Part 1: Lake Sturgeon!",
+        "requirements": [
+            ["lake_sturgeon", 30],
+            ["giant_squid", 20],
+            ["manta_ray", 30],
+            ["black_marlin", 20]
+        ],
+        "rewards": {
+            "clanPoints": 100,
+            "lollipops": 50,
+            "coins": 2600
+        }
+    },
+    {
+        "name": "Searching for Sturgeons (Part 2/5)",
+        "description": "Onto the Atlantic Sturgon",
+        "requirements": [
+            ["atlantic_sturgeon", 30],
+            ["goliath_srouper", 15],
+            ["hapuku", 25],
+            ["angel_shark", 30]
+        ],
+        "rewards": {
+            "clanPoints": 140,
+            "lollipops": 55,
+            "coins": 3000
+        }
+    },
+    {
+        "name": "Searching for Sturgeons (Part 3/5)",
+        "description": "Day 3: This is a challenging one!\nYour clan will be catching Sea Sturgeons!",
+        "requirements": [
+            ["sea_sturgeon", 20],
+            ["bigeye_tuna", 30],
+            ["gulf_grouper", 25],
+            ["pygmy_sperm_whale", 25]
+        ],
+        "rewards": {
+            "clanPoints": 180,
+            "lollipops": 70,
+            "coins": 3000
+        }
+    },
+    {
+        "name": "Searching for Sturgeons (Part 4/5)",
+        "description": "Here are the sturgeons in location 11!",
+        "requirements": [
+            ["butterfish", 20],
+            ["beluga_sturgeon", 20],
+            ["chinese_sturgeon", 20],
+            ["sterlet", 20],
+            ["hammerhead_shark", 10]
+        ],
+        "rewards": {
+            "clanPoints": 100,
+            "lollipops": 60,
+            "coins": 3000
+        }
+    },
+    {
+        "name": "Searching for Sturgeons (Part 5/5)",
+        "description": "Last one: White Sturgeon!",
+        "requirements": [
+            ["white_sturgeon", 30],
+            ["spinner_shark", 20],
+            ["ocean_sunfish", 20],
+            ["mulloway", 15],
+            ["whaler_shark", 15]
+        ],
+        "rewards": {
+            "clanPoints": 125,
+            "lollipops": 50,
+            "coins": 3000
+        }
+    }
+]

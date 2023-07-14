@@ -1,0 +1,165 @@
+{
+    "hull": [
+        {
+            "name": "wooden",
+            "price": 0
+        },
+        {
+            "name": "framed wooden",
+            "price": 1000
+        },
+        {
+            "name": "reinforced wooden",
+            "price": 2000
+        },
+        {
+            "name": "aluminum",
+            "price": 3000
+        },
+        {
+            "name": "gold plated",
+            "price": 4000
+        }
+    ],
+    "container": [
+        {
+            "name": "old",
+            "price": 0,
+            "capacity": 4
+        },
+        {
+            "name": "standard",
+            "price": 400,
+            "capacity": 6
+        },
+        {
+            "name": "double",
+            "price": 600,
+            "capacity": 8
+        },
+        {
+            "name": "triple",
+            "price": 500,
+            "capacity": 9
+        },
+        {
+            "name": "industrial",
+            "price": 800,
+            "capacity": 11
+        },
+        {
+            "name": "hybrid industrial",
+            "price": 600,
+            "capacity": 12
+        },
+        {
+            "name": "double industrial",
+            "price": 700,
+            "capacity": 13
+        },
+        {
+            "name": "giant",
+            "price": 1000,
+            "capacity": 15
+        }        
+    ],
+    "engine": [
+        {
+            "name": "weak gasoline",
+            "price": 0,
+            "efficiency": 0.5
+        },
+        {
+            "name": "standard gasoline",
+            "price": 150,
+            "efficiency": 0.6
+        },
+        {
+            "name": "improved gasoline",
+            "price": 200,
+            "efficiency": 0.7
+        },
+        {
+            "name": "superior gasoline",
+            "price": 250,
+            "efficiency": 0.8
+        },
+        {
+            "name": "silver gasoline",
+            "price": 300,
+            "efficiency": 0.9
+        },
+        {
+            "name": "gold gasoline",
+            "price": 400,
+            "efficiency": 1
+        },
+        {
+            "name": "standard diesel",
+            "price": 450,
+            "efficiency": 1.2
+        },
+        {
+            "name": "improved diesel",
+            "price": 475,
+            "efficiency": 1.4
+        },
+        {
+            "name": "superior diesel",
+            "price": 500,
+            "efficiency": 1.6
+        },
+        {
+            "name": "silver diesel",
+            "price": 550,
+            "efficiency": 1.8
+        }
+    ],
+    "propeller": [
+        {
+            "name": "soft wooden",
+            "price": 0,
+            "cooldown": 432000000
+        },
+        {
+            "name": "standard wooden",
+            "price": 150,
+            "cooldown": 417600000
+        },
+        {
+            "name": "improved wooden",
+            "price": 200,
+            "cooldown": 403200000
+        },
+        {
+            "name": "iron",
+            "price": 250,
+            "cooldown": 396000000
+        },
+        {
+            "name": "double iron",
+            "price": 300,
+            "cooldown": 374400000
+        },
+        {
+            "name": "double steel",
+            "price": 350,
+            "cooldown": 360000000
+        },
+        {
+            "name": "industrial",
+            "price": 500,
+            "cooldown": 345600000
+        },
+        {
+            "name": "double industrial",
+            "price": 550,
+            "cooldown": 338400000
+        },
+        {
+            "name": "optimized industrial",
+            "price": 600,
+            "cooldown": 331200000
+        }
+    ]
+}

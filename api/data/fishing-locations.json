@@ -16,7 +16,8 @@
             {"id": 8, "chance": 5},
             {"id": 9, "chance": 5},
             {"id": 10, "chance": 14}
-        ]
+        ],
+        "legendary": 172
     },
     {
         "id": 2,
@@ -34,7 +35,8 @@
             {"id": 17, "chance": 9},
             {"id": 18, "chance": 20},
             {"id": 19, "chance": 10}
-        ]
+        ],
+        "legendary": 173
     },
     {
         "id": 3,
@@ -54,7 +56,8 @@
             {"id": 28, "chance": 4},
             {"id": 29, "chance": 2},
             {"id": 30, "chance": 20}
-        ]
+        ],
+        "legendary": 174
     },
     {
         "id": 4,
@@ -188,6 +191,103 @@
             {"id": 108, "chance": 13},
             {"id": 109, "chance": 2},
             {"id": 110, "chance": 4}
+        ]
+    },
+    {
+        "id": 10,
+        "name": "The Depths",
+        "trashChance": 1,
+        "level": 90,
+        "zoom": 3,
+        "fish": [
+            {"id": 111, "chance": 0.5},
+            {"id": 112, "chance": 25},
+            {"id": 113, "chance": 0.5},
+            {"id": 114, "chance": 1},
+            {"id": 115, "chance": 10},
+            {"id": 116, "chance": 12},
+            {"id": 117, "chance": 2},
+            {"id": 118, "chance": 16},
+            {"id": 119, "chance": 6},
+            {"id": 120, "chance": 12},
+            {"id": 121, "chance": 2},
+            {"id": 122, "chance": 1.5},
+            {"id": 123, "chance": 4},
+            {"id": 124, "chance": 6},
+            {"id": 125, "chance": 1.5}
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Twilight",
+        "trashChance": 1,
+        "level": 100,
+        "zoom": 3,
+        "fish": [
+            {"id": 126, "chance": 20},
+            {"id": 127, "chance": 9},
+            {"id": 128, "chance": 1},
+            {"id": 129, "chance": 14},
+            {"id": 130, "chance": 8},
+            {"id": 131, "chance": 6},
+            {"id": 132, "chance": 12},
+            {"id": 133, "chance": 1},
+            {"id": 134, "chance": 4.5},
+            {"id": 135, "chance": 3},
+            {"id": 136, "chance": 2},
+            {"id": 137, "chance": 14},
+            {"id": 138, "chance": 4},
+            {"id": 139, "chance": 1},
+            {"id": 140, "chance": 0.5}
+        ]
+    },
+    {
+        "id": 12,
+        "name": "The Abyss",
+        "trashChance": 1,
+        "level": 110,
+        "zoom": 4,
+        "fish": [
+            {"id": 141, "chance": 12},
+            {"id": 142, "chance": 14},
+            {"id": 143, "chance": 8},
+            {"id": 144, "chance": 1},
+            {"id": 145, "chance": 1},
+            {"id": 146, "chance": 16.5},
+            {"id": 147, "chance": 12},
+            {"id": 148, "chance": 0.5},
+            {"id": 149, "chance": 2},
+            {"id": 150, "chance": 3.5},
+            {"id": 151, "chance": 0.5},
+            {"id": 152, "chance": 0.5},
+            {"id": 153, "chance": 9},
+            {"id": 154, "chance": 11},
+            {"id": 155, "chance": 5},
+            {"id": 156, "chance": 3.5}
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Stormy Sea",
+        "trashChance": 1,
+        "level": 120,
+        "zoom": 4,
+        "fish": [
+            {"id": 157, "chance": 0.5},
+            {"id": 158, "chance": 1},
+            {"id": 159, "chance": 11},
+            {"id": 160, "chance": 15},
+            {"id": 161, "chance": 10},
+            {"id": 162, "chance": 1},
+            {"id": 163, "chance": 4.5},
+            {"id": 164, "chance": 3},
+            {"id": 165, "chance": 12},
+            {"id": 166, "chance": 0.5},
+            {"id": 167, "chance": 15},
+            {"id": 168, "chance": 4},
+            {"id": 169, "chance": 10},
+            {"id": 170, "chance": 0.5},
+            {"id": 171, "chance": 12}
         ]
     }
 ]

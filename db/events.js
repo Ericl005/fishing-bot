@@ -7,9 +7,9 @@ module.exports.setEvent = async function(eventInput) {
 }
 
 module.exports.getUpcomingEvent = async function() {
-    let query = 'SELECT * FROM events WHERE end_time > $1 ORDER BY create_time DESC LIMIT 1'; // grabs the latest event entry that hasnt passed yet
+    let query = 'SELECT * FROM events WHERE end_time > $1 ORDER BY id DESC LIMIT 1'; // grabs the latest event entry that hasnt passed yet
     let eventEntry = (await config.pquery(query, [Date.now()]))[0];
-    if(eventEntry) {
+    if (eventEntry) {
         eventEntry.start_time = parseInt(eventEntry.start_time);
         eventEntry.end_time = parseInt(eventEntry.end_time);
     }
@@ -17,9 +17,9 @@ module.exports.getUpcomingEvent = async function() {
 }
 
 module.exports.getCurrentEvent = async function() {
-    let query = 'SELECT * FROM events WHERE start_time <= $1 AND end_time >= $1 ORDER BY create_time DESC LIMIT 1';
+    let query = 'SELECT * FROM events WHERE start_time <= $1 AND end_time >= $1 ORDER BY id DESC LIMIT 1';
     let eventEntry = (await config.pquery(query, [Date.now()]))[0];
-    if(eventEntry) {
+    if (eventEntry) {
         eventEntry.start_time = parseInt(eventEntry.start_time);
         eventEntry.end_time = parseInt(eventEntry.end_time);
     }

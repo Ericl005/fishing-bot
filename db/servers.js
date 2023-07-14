@@ -17,6 +17,41 @@ async function fetchServer(serverid) {
 
 module.exports.fetchServer = fetchServer;
 
+module.exports.setColumn = async function(serverid, column, value) {
+    let query = `UPDATE servers SET ${column}=$1 WHERE serverid=$2`;
+    await config.pquery(query, [value, serverid]);
+    return;
+}
+
+module.exports.updateColumns = async function(serverid, obj) {
+    let queryMiddle = Object.keys(obj).map((key, i) => `${key}=${key} + $${i+2}`).join(', ');
+    let query = `UPDATE servers SET ${queryMiddle} WHERE serverid=$1 RETURNING *`;
+    let server = (await config.pquery(query, [serverid, ...Object.values(obj)]))[0];
+    return server;
+}
+
+module.exports.setColumns = async function(serverid, obj) {
+    let queryMiddle = Object.keys(obj).map((key, i) => `${key}=$${i+2}`).join(', ');
+    let query = `UPDATE servers SET ${queryMiddle} WHERE serverid=$1 RETURNING *`;
+    let server = (await config.pquery(query, [serverid, ...Object.values(obj)]))[0];
+    return server;
+}
+
+module.exports.fetchServerStats = async function(serverid) {
+    let query = 'SELECT * FROM servers WHERE serverid=$1';
+    let res = (await config.pquery(query, [serverid]))[0];
+    if (!res) {
+        await createServerEntry(serverid);
+        res = { fish_caught: 0, weight_caught: 0, custom_fish_privilege: false };
+    }
+    query = 'SELECT position FROM (SELECT serverid, RANK() OVER(ORDER BY weight_caught DESC) AS position FROM servers) RESULT WHERE serverid=$1';
+    let rank = (await config.pquery(query, [serverid]))[0].position;
+    res.fish_caught = parseInt(res.fish_caught);
+    res.weight_caught = parseInt(res.weight_caught);
+    res.rank = parseInt(rank);
+    return res;
+}
+
 module.exports.toggle = async function(serverid, column) {
     await fetchServer(serverid); // ensure there is a server in the db
     let query = `UPDATE servers SET ${column} = NOT ${column} WHERE serverid=$1 RETURNING ${column}`;
@@ -46,12 +81,6 @@ module.exports.setCustomFishCommand = async function(serverid, customFishCommand
 module.exports.removeCustomFishCommand = async function(serverid) {
     let query = 'UPDATE servers SET custom_fish=NULL WHERE serverid=$1';
     await config.pquery(query, [serverid]);
-    return;
-}
-
-module.exports.setColumn = async function(serverid, column, value) {
-    let query = `UPDATE servers SET ${column}=$1 WHERE serverid=$2`;
-    await config.pquery(query, [value, serverid]);
     return;
 }
 

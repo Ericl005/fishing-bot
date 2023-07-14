@@ -1,0 +1,47 @@
+{
+    "1": {
+        "name": "Calm Waters",
+        "dist": 20,
+        "spawns": {
+            "common": ["l1", "l1", "l1", "l2", "l2"],
+            "uncommon": ["l3", "l3", "b1"],
+            "rare": ["b2"]
+        }
+    },
+    "2": {
+        "name": "Deep Waters",
+        "dist": 40,
+        "spawns": {
+            "common": ["l4", "l4", "l4", "l4", "b1"],
+            "uncommon": ["l5"],
+            "rare": ["b3"]
+        }
+    },
+    "3": {
+        "name": "The Gulf",
+        "dist": 60,
+        "spawns": {
+            "common": ["l5", "l6"],
+            "uncommon": ["l7", "b2"],
+            "rare": ["b3"]
+        }
+    },
+    "4": {
+        "name": "Opulent Ocean",
+        "dist": 100,
+        "spawns": {
+            "common": ["l6", "l7", "l7", "l7", "b1"],
+            "uncommon": ["l8", "l8", "b2", "b2"],
+            "rare": ["b3", "b3", "b3", "b4"]
+        }
+    },
+    "5": {
+        "name": "Coastal Caribbean",
+        "dist": 120,
+        "spawns": {
+            "common": ["l7", "l7", "l7", "l8", "b2"],
+            "uncommon": ["l8", "l8", "l9", "b1"],
+            "rare": ["b3", "b3", "b4"]
+        }
+    }
+}
