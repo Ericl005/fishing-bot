@@ -404,6 +404,60 @@
             "level": 160,
             "price": 18000000,
             "size": 8
+        },
+        {
+            "id": 45,
+            "name": "Heavenly II",
+            "cooldown": 2940000,
+            "maxWeight": 6100,
+            "level": 165,
+            "price": 24000000,
+            "size": 9
+        },
+        {
+            "id": 46,
+            "name": "Heavenly III",
+            "cooldown": 2940000,
+            "maxWeight": 6800,
+            "level": 169,
+            "price": 30000000,
+            "size": 9
+        },
+        {
+            "id": 47,
+            "name": "Heavenly IV",
+            "cooldown": 2940000,
+            "maxWeight": 7500,
+            "level": 174,
+            "price": 35000000,
+            "size": 9
+        },
+        {
+            "id": 48,
+            "name": "Heavenly V",
+            "cooldown": 2940000,
+            "maxWeight": 8400,
+            "level": 178,
+            "price": 42000000,
+            "size": 9
+        },
+        {
+            "id": 49,
+            "name": "Roller",
+            "cooldown": 2880000,
+            "maxWeight": 9300,
+            "level": 182,
+            "price": 50000000,
+            "size": 9
+        },
+        {
+            "id": 50,
+            "name": "Roller II",
+            "cooldown": 2880000,
+            "maxWeight": 10000,
+            "level": 186,
+            "price": 60000000,
+            "size": 9
         }
     ],
     "lines": [
@@ -1156,6 +1210,126 @@
             "level": 162,
             "price": 4000000,
             "bonus": 44
+        },
+        {
+            "id": 75,
+            "name": "Angel",
+            "px": 8,
+            "rgb": "#7A0E1D",
+            "maxWeight": 5700,
+            "level": 164,
+            "price": 4500000,
+            "bonus": 46
+        },
+        {
+            "id": 76,
+            "name": "Angel B",
+            "px": 8,
+            "rgb": "#8B1625",
+            "maxWeight": 6000,
+            "level": 166,
+            "price": 5000000,
+            "bonus": 48
+        },
+        {
+            "id": 77,
+            "name": "Angel A",
+            "px": 8,
+            "rgb": "#62030F",
+            "maxWeight": 6400,
+            "level": 168,
+            "price": 5500000,
+            "bonus": 50
+        },
+        {
+            "id": 78,
+            "name": "Angel AA",
+            "px": 8,
+            "rgb": "#BC5260",
+            "maxWeight": 6800,
+            "level": 170,
+            "price": 6000000,
+            "bonus": 52
+        },
+        {
+            "id": 79,
+            "name": "Angel AAA",
+            "px": 8,
+            "rgb": "#B93A4B",
+            "maxWeight": 7200,
+            "level": 172,
+            "price": 6600000,
+            "bonus": 54
+        },
+        {
+            "id": 80,
+            "name": "Angel AAAA",
+            "px": 8,
+            "rgb": "#DC4055",
+            "maxWeight": 7600,
+            "level": 174,
+            "price": 7200000,
+            "bonus": 56
+        },
+        {
+            "id": 81,
+            "name": "Solar",
+            "px": 9,
+            "rgb": "#7A227A",
+            "maxWeight": 8000,
+            "level": 176,
+            "price": 8000000,
+            "bonus": 58
+        },
+        {
+            "id": 82,
+            "name": "Solar B",
+            "px": 9,
+            "rgb": "#7C177C",
+            "maxWeight": 8400,
+            "level": 178,
+            "price": 8800000,
+            "bonus": 60
+        },
+        {
+            "id": 83,
+            "name": "Solar A",
+            "px": 9,
+            "rgb": "#A918A9",
+            "maxWeight": 8800,
+            "level": 180,
+            "price": 9600000,
+            "bonus": 63
+        },
+        {
+            "id": 84,
+            "name": "Solar AA",
+            "px": 9,
+            "rgb": "#B918B9",
+            "maxWeight": 9200,
+            "level": 182,
+            "price": 10500000,
+            "bonus": 66
+        },
+        {
+            "id": 85,
+            "name": "Solar AAA",
+            "px": 9,
+            "rgb": "#500850",
+            "maxWeight": 9600,
+            "level": 184,
+            "price": 11500000,
+            "bonus": 69
+        },
+        {
+            "id": 86,
+            "name": "Solar AAAA",
+            "px": 9,
+            "rgb": "#522952",
+            "maxWeight": 10000,
+            "level": 186,
+            "price": 12500000,
+            "bonus": 72
         }
     ],
     "hooks": [
@@ -1854,6 +2028,110 @@
             "name": "Angel VII - Repose",
             "level": 163,
             "price": 500000
+        },
+        {
+            "id": 87,
+            "multiplier": 2.08,
+            "maxWeight": 5900,
+            "name": "Angel VIII - Unknown",
+            "level": 165,
+            "price": 530000
+        },
+        {
+            "id": 88,
+            "multiplier": 2.09,
+            "maxWeight": 6200,
+            "name": "Angel IV - Double",
+            "level": 167,
+            "price": 560000
+        },
+        {
+            "id": 89,
+            "multiplier": 2.10,
+            "maxWeight": 6600,
+            "name": "Angel X - Final",
+            "level": 168,
+            "price": 600000
+        },
+        {
+            "id": 90,
+            "multiplier": 2.11,
+            "maxWeight": 7000,
+            "name": "Solar I",
+            "level": 170,
+            "price": 640000
+        },
+        {
+            "id": 91,
+            "multiplier": 2.12,
+            "maxWeight": 7500,
+            "name": "Solar II",
+            "level": 172,
+            "price": 690000
+        },
+        {
+            "id": 92,
+            "multiplier": 2.13,
+            "maxWeight": 7800,
+            "name": "Solar III",
+            "level": 174,
+            "price": 730000
+        },
+        {
+            "id": 93,
+            "multiplier": 2.14,
+            "maxWeight": 8100,
+            "name": "Solar IV",
+            "level": 175,
+            "price": 750000
+        },
+        {
+            "id": 94,
+            "multiplier": 2.15,
+            "maxWeight": 8400,
+            "name": "Solar V",
+            "level": 177,
+            "price": 800000
+        },
+        {
+            "id": 95,
+            "multiplier": 2.16,
+            "maxWeight": 8700,
+            "name": "Galactic",
+            "level": 178,
+            "price": 850000
+        },
+        {
+            "id": 96,
+            "multiplier": 2.17,
+            "maxWeight": 9000,
+            "name": "Galactic II",
+            "level": 180,
+            "price": 900000
+        },
+        {
+            "id": 97,
+            "multiplier": 2.18,
+            "maxWeight": 9400,
+            "name": "Galactic III",
+            "level": 182,
+            "price": 950000
+        },
+        {
+            "id": 98,
+            "multiplier": 2.19,
+            "maxWeight": 9700,
+            "name": "Galactic IV",
+            "level": 184,
+            "price": 1000000
+        },
+        {
+            "id": 99,
+            "multiplier": 2.20,
+            "maxWeight": 10000,
+            "name": "Galactic V",
+            "level": 186,
+            "price": 1080000
         }
     ],
     "gloves": [
@@ -2088,7 +2366,55 @@
             "bonus": 4000,
             "level": 162,
             "price": 15000000
-        }
+        },
+        {
+            "id": 30,
+            "name": "Holy",
+            "chance": 22,
+            "bonus": 5000,
+            "level": 168,
+            "price": 23000000
+        },
+        {
+            "id": 31,
+            "name": "Holy V2",
+            "chance": 23,
+            "bonus": 6100,
+            "level": 174,
+            "price": 31000000
+        },
+        {
+            "id": 32,
+            "name": "Holy V3",
+            "chance": 24,
+            "bonus": 7400,
+            "level": 179,
+            "price": 40000000
+        },   
+        {
+            "id": 33,
+            "name": "Solar",
+            "chance": 24,
+            "bonus": 8700,
+            "level": 183,
+            "price": 50000000
+        },
+        {
+            "id": 34,
+            "name": "Solar V2",
+            "chance": 25,
+            "bonus": 10000,
+            "level": 188,
+            "price": 61000000
+        },
+        {
+            "id": 35,
+            "name": "Solar V3",
+            "chance": 25,
+            "bonus": 11500,
+            "level": 194,
+            "price": 72500000
+        }    
     ],
     "swivels": [
         {
@@ -2251,6 +2577,48 @@
             "bonus": 4200,
             "level": 162,
             "price": 30000000
+        },        
+        {
+            "id": 24,
+            "name": "Holy",
+            "bonus": 5000,
+            "level": 168,
+            "price": 60000000
+        },
+        {
+            "id": 25,
+            "name": "Holy V2",
+            "bonus": 5900,
+            "level": 172,
+            "price": 100000000
+        },
+        {
+            "id": 26,
+            "name": "Holy V3",
+            "bonus": 6900,
+            "level": 177,
+            "price": 150000000
+        },
+        {
+            "id": 27,
+            "name": "Solar",
+            "bonus": 8000,
+            "level": 180,
+            "price": 250000000
+        },
+        {
+            "id": 28,
+            "name": "Solar V2",
+            "bonus": 10000,
+            "level": 184,
+            "price": 400000000
+        },
+        {
+            "id": 29,
+            "name": "Solar V3",
+            "bonus": 12500,
+            "level": 188,
+            "price": 650000000
         }
     ]
 }
